@@ -5,7 +5,7 @@ files:
     destination: /opt/tomcat/webapps/
 
 hooks:
-  AfterInstall:
+  Install:
     - location: install.sh
       timeout: 300
       runas: root
