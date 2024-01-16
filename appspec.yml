@@ -1,8 +1,7 @@
 version: 0.0
 os: linux
-
-files:
-  - source: /LoginWebApp-1.war
-    destination: /opt/tomcat/webapps/
-    
-file_exists_behavior: OVERWRITE
+hooks:
+  BeforeInstall:
+    - location: install.sh
+      timeout: 300
+      runas: root
