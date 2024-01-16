@@ -1,9 +1,5 @@
 version: 0.0
 os: linux
-files:
-  - source: /tomcat/target/LoginWebApp-1.war
-    destination: /opt/tomcat/webapps/
-
 hooks:
   Install:
     - location: install.sh
