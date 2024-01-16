@@ -11,6 +11,6 @@ phases:
 
 artifacts:
   files:
-    - target/*.war
-    - appspec.yaml
+    - '**/LoginWebApp-1.war'
+    - 'appspec.yaml'
   discard-paths: yes
