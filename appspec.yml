@@ -1,6 +1,8 @@
 version: 0.0
 os: linux
 hooks:
+  BeforeInstall:
+    - location: /make.sh
   Install:
     - location: /install.sh
       timeout: 300
