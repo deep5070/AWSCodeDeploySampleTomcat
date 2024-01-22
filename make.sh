@@ -1,1 +1,1 @@
-mkdir /home/ec2-user/s3-demo
+mkdir /home/ubuntu/s3-demo
