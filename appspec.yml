@@ -5,9 +5,6 @@ files:
     destination: /tmp/
 hooks:
   BeforeInstall:
-    - location: /make.sh
-       runas: root
-  Install:
     - location: /install.sh
       timeout: 300
       runas: root
