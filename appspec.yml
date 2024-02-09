@@ -4,7 +4,7 @@ files:
   - source: /LoginWebApp-1.war
     destination: /tmp/
 hooks:
-  BeforeInstall:
+  AfterInstall:
     - location: /install.sh
       timeout: 300
       runas: root
